@@ -1,0 +1,64 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#heading{
+    background-image: url("logo.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 301px;
+    height: 65px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ff0000;
+}
+#about-heading {
+    color: #aa3c41;
+    text-shadow: #0000ff 2px  2px;
+}
+#about-content {
+    font-size: 13px;
+}
+#about-content:first-letter{
+    font-size:40px;
+
+}
+#about-content span{
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.heading {
+    color: #aa3c41;
+}
+
+.location-item:first-child ul li:nth-child(2n+1),
+.location-item:first-child ul li:nth-child(2n+1) a{
+    color: red;
+}
+
+.location-item:last-child ul li:nth-child(2n+2),
+.location-item:last-child ul li:nth-child(2n+2) a{
+    color: red;
+}
+
+.classes-table {
+    border-collapse: collapse;
+}
+
+.classes-table th, .classes-table td{
+    border: solid 1px #ccc;
+    text-align: center;
+    padding:6px 8px;
+}
+#footer {
+    margin-top: 40px;
+}
+#footer a:first-child {
+    font-weight: 700;
+    color: #629194;
+    text-shadow: 1px 1px 3px #000 ;
+    text-decoration: none;
+}

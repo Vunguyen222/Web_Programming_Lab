@@ -1,0 +1,104 @@
+* {
+    padding: 5px;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* line-height: 2em; */
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -1px;
+}
+
+.outer {
+    height: 100%;
+    width: 75%;
+    background-color: white;
+    position: relative;
+    left: 12.5%;
+}
+
+img {
+    border: 5px solid red;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 0;
+}
+
+ul {
+    padding-left: 50px;
+}
+
+table,
+td,
+tr,
+th {
+    border: 2px solid rgb(220, 218, 218);
+    border-collapse: collapse;
+}
+
+table {
+    width: 260px;
+    height: 200px;
+    text-align: center;
+}
+
+/* About */
+.outer>span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xxx-large;
+    color: brown;
+    text-shadow: 5px 4px blue;
+    line-height: 2em;
+}
+
+/* I in It */
+p:first-child span:first-child {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+    padding: 0;
+}
+
+/* extreme minority */
+/* 91% male */
+p:first-child span:last-child,
+p:last-child span:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+p:last-child span:last-child {
+    text-decoration: underline;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
+.header {
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+ul>li:first-child>ul>li:nth-child(odd) a,
+ul>li:first-child>ul>li:nth-child(odd)::marker {
+    color: red;
+}
+
+ul>li:last-child>ul>li:last-child a,
+ul>li:last-child>ul>li:last-child::marker {
+    color: red;
+}
+
+.twitter {
+    font-weight: bold;
+    color: darkcyan;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.5);
+}
+
+footer {
+    word-spacing: -6px;
+}

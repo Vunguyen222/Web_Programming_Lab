@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding : 0; 
+}
+
+/* header format */
+#search{
+    border: 2px solid black;
+    border-radius: 25px;
+    margin : 10px 5px;
+    padding: 8px;
+}
+
+.title h1{
+    font-size: 30px;
+}
+
+.title{
+    padding-top: 10px;
+}
+.header{
+    border-bottom: 2px solid black;
+    height: 100px;
+    background-color: orange;
+}
+
+
+/* content format */
+/* left sidebar format */
+
+.list{
+    list-style-type: none;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color : red;
+}
+
+.leftSidebar{
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 2px solid black;
+    height: 100%;
+}
+
+.empty .left{
+    border: 2px solid black;
+    height: auto;
+}
+.headSidebar{
+    border: 2px solid black;
+    background-color: orange;
+}
+
+/* .product{
+    background-color: red;
+} */
+
+
+.contentSidebar{
+    border: 2px solid black;
+
+}
+/* main content format  */
+/* .mainContent{
+    height: 800px;
+} */
+.content{
+    height: 800px;
+    /* padding : 10px; */
+}
+
+.row{
+    margin : 0; 
+}
+
+img{
+    height: 150px;
+    width: 100%;
+}
+
+.product{
+    border: 2px solid black;
+    padding : 10px;
+    margin-bottom: 10px;
+}
+
+.buy{
+    text-align: center;
+}
+
+/* right sidebar format */
+
+.rightSidebar{
+    padding: 0; 
+    height : 100%; 
+    border : 1px solid black; 
+
+}
+
+.rightSidebar .top{
+    height : 600px; 
+    /* border : 2px solid black; */
+    background-color: grey;
+    width: 100%;
+}
+
+
+/* footer format */
+.footer{
+    /* justify-content: center; */
+    text-align: center;
+    border: 2px solid black;
+    margin : 0px;
+    background-color: black;
+    color : white;
+}
+
+.footer p{
+    font-weight: bold;
+    color : white;
+}
+
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .h1{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width : 992px) {
+    .header{
+        height: 100px;
+    }
+
+    .title{
+        text-align: center;
+        padding-top : 10px;
+    }
+
+    .search{
+        text-align: right;
+    }
+
+    .content{
+        height: 1600px;
+    }
+
+    .rightSidebar .top{
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        height: 1900px;
+    }
+    .navigation {
+        text-align: center;
+    }
+
+    .header{
+        height: 180px;
+    }
+
+    .title .h1{
+        font-size: 40px;
+    }
+    
+    .title{
+        text-align: center;
+    }   
+
+    .search{
+        text-align: center;
+    }
+    .content {
+        height: 1600px;
+    }
+
+    .leftSidebar{
+        display: none;
+        /* height : 30%;  */
+    }
+
+    /* .contentSidebar{
+        text-align: center;
+    } */
+
+    .rightSidebar{
+        display: none;
+    }
+
+}
